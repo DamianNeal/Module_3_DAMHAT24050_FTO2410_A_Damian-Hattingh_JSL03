@@ -1,3 +1,10 @@
+// Evidence that this code is imperative:
+// 1. The code provides explicit step-by-step instructions on how to achieve the task of cooking a steak.
+// 2. Variables such as `grillTemperature` and `steakTemperature` are used to manage and update the program's state explicitly.
+// 3. Control flow is managed using a `while` loop and `if-else` statements.
+// 4. Theres a focus on *how* the task is done.
+// 6. The program explicitly interacts with and modifies the environment.
+
 function cookSteak(steakWeight, desiredDoneness) {
     let grillTemperature = 0;
     let steakTemperature = 0;

@@ -1,3 +1,9 @@
+// Evidence that the code is declarative:
+// 1. The `cookingProcess` array defines the steps in a clear and structured way, focusing on *what* needs to be done.
+// 2. The cooking process is described as data. the code emphasizes high-level logic instead of low-level control flow.
+// 3. The modular approach makes it easy to modify process without changing the core logic.
+// 4. The code is readable and focuses on the desired outcome of each step.
+
 function cookSteak(steakWeight, desiredDoneness) {
     const grillTemperatureCelsius = 204; 
     const seasoning = 'Salt and Pepper';
